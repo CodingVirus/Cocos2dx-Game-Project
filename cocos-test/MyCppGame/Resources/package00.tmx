@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="256" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" source="tilemap/background_layer_1.tsx"/>
+ <tileset firstgid="221" source="tilemap/background_layer_3.tsx"/>
+ <tileset firstgid="441" source="tilemap/background_layer_2.tsx"/>
+ <tileset firstgid="661" source="tilemap/shop.tsx"/>
+ <tileset firstgid="662" source="tilemap/lamp.tsx"/>
+ <tileset firstgid="663" source="tilemap/fence_1.tsx"/>
+ <tileset firstgid="664" source="tilemap/sign.tsx"/>
+ <tileset firstgid="665" source="tilemap/rock_3.tsx"/>
+ <tileset firstgid="666" source="tilemap/grass_2.tsx"/>
+ <tileset firstgid="667" source="tilemap/rock_2.tsx"/>
+ <tileset firstgid="668" source="tilemap/Sprite-0002.tsx"/>
+ <tileset firstgid="669" source="tilemap/oak_woods_tileset.tsx"/>
+ <layer id="1" name="BackGround1" width="256" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztztXP0AUUx+H3pUMaJKWUlBCkUTqku1O6UwEBAenuBumSEumSDmkQaf8Yngs27tzcuPmN892ey/PZSU1JSUlDWtKRngxkJBOZyUJWPiEb2clBTnKRmzzkJTV60YteYnr5+JT8FKAghShMET6jKMUoTglK8jlfUIrSlKFs9KIXvUT1ylGeL6lARSpRma+oQlW+phrVqUFNalGbOtTlm+hFL3qJ6n1LPerTgIY0ojFNaEozmvMdLWhJK1rThra0o330ohe9RPU60JFOdKYLXelGd3rQk170pg996Ud/vmcAAxkUvehFL1G9wQxhKMMYzghGMorRjGEs4xjPBCbyAz8yiclMiV70opeo3k9MZRrT+ZkZzGQWvzCbOcxlHvNZwEIWsZglLI1e9KKXqN4ylrOClaxiNWtYyzrWs4GNbGIzW9jKr2xjOzuiF73oJaq3k13sZg972cd+DvAbBznEYY5wlN85xh8c5wQnoxe96CWqd4rTnOEs5zjPBS7yJ5e4zBWuco3r3OAmt7jNX+9u/sv/7X3o/6IXvei9793hLve4zwMe8ojHPOFvnvIPz3jOC17yite84d/oRS96ierFYrGPd28BZ2S+eQ==
+  </data>
+ </layer>
+ <layer id="3" name="BackGround2" width="256" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzt1ff3T3UAx/GPr6zKaKiE7BIlEoVENmlRRkuhUHZZ2WSUrf4ZbaWoVEQ0tFOkMpJV6NEf4J57r+u6rvs85/H767zvPe93qVQqrSlXKr3Ka7zOG7zJW7zNWt7hXdbxHu+zng18wId8xEayWlb3Z3VX0fnRx/6tT/iUTWzmM7awlc/Zxna+4Eu+4mt28A3f8h3fJ/Cfhr2PopbW/rzsitv58p7kpR+c8Y/8xM/s5Bd+ZRe7+Y09/M4f/Mle9rGfA/zFwQS+V9j7KGpp7c/Lrrhl7T0pCu5vZ3yIwxzhKMf4h385zglO/v8tykqlcpRRnguoQEUqUbns9PeEvY+iltb+vOyKW9bek6Lgqvi3LuQiLqYq1ahODS7hUi7jcmpyBVdyFbW4mtrUSeA/DXsfRS2t/XnZFbesvSdFwdV1xtdQj/o0oCGNaEwTruU6mnI9zWjODdxIC26iZQLfK+x9FLW09udlV9yy9p4UBdfKGd9Ma26hDW25ldtoR3s6cDsduYNOdOZOutCVbgl8r7D3UdTS2p+XXXHL2ntSFFx3Z9yDnvSiN324i77czT3cy33cTz/68wAPMoCBDErge4W9j6KW1v687Ipb1t6TouAGO+OHeJhHeJTHGMLjPMFQhjGcJ3mKEYxkFE/zDKMT+F5h76OopbX/TO06G9vilLX3pCi4Mc54LOMYzwQm8izPMYnJTGEq03ie6cxgJrOYzZwEvlfY+yhqae3Py664Ze09KQpurjOex3xeYAELWcRiXuQllrCUZSxnBStZxWpe5pUEvlfY+yhqae3Py664Ze09KTq3CnsfFWWzrL0nRafuP1Hgb4E=
+  </data>
+ </layer>
+ <layer id="4" name="BackGround3" width="256" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzt1GWzlVUcxuF96O5QpKQbpASlUUFCBAGlUVRaEUG6kZaSkla6DqXAlzmKpISEKCigcDl8gb1nzrBm1jxr9vXumd89/zc7J5VK/cwvnOdXLnCRS1zmClf5jWtc5wY3+Z1b3OYOOWn20v0ut3dD9WK5I+nF1bvLH9zjT/7iPg/4m394yCMe8y//8YRUlh95yEu+rPR7oXZD9WK5I+nF1ctPAQpSiMIUoSjFKE4JSlKK0pShLOUoTwUq8kIGvVC7oXqx3JH04uq9SCVeojJVqEo1qvMyNahJLWpTh7rUoz4NaEijDHqhdkP1Yrkj6cXVa0wTmtKMV2hOC1rSita8Shva8hqv0472dKAjnTLohdoN1YvljqQXV68zXejKG7zJW3SjO2/Tg570ojfv0Id36Us/3qN/Br1Qu6F6sdyR9OLq/f+fMZD3+YBBDGYIQxnGcEYwkg/5iFF8zCd8ymjGMCDNXrrf5fZuqF4sdyS9uHpjGcd4JjCRz/icSXzBZL5kClP5imlMZwYzmcXsDHqhdkP1Yrkj6cXVm8Nc5jGfBSxkEYv5miUsZRnLWcFKVvENq1nD2gx6oXZD9WK5I+nF1VvHer5lAxvZxGa28B1b2cZ2drCTXezme35gD3sz6IXaDdWL5Y6kF1dvH/s5wEEOcZgjHOUY2RznBCc5xWl+5CfOcJZzGfRC7YbqxXJH0ourF/plZz1/yUte8p69p0uXElc=
+  </data>
+ </layer>
+ <layer id="5" name="shop" width="256" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztzjERAAAIBKA/+6/2NYOTg5CABAAAAAAAAAAA+KbregAAAGwNI18AmA==
+  </data>
+ </layer>
+ <layer id="6" name="Decorations" width="256" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzt102uwVAYxvGT1sQmTLAHExMsDIsoeuP6SHztAYkJ9mCMbdxHXEnTFEfCaRP/X/KmyaFvOzhP39YYAAAAAAAAAEhH6KV9BwDSUMwZU1KVc2nfCQDXasp9XdVIyL/te0FT57ZUbZ4hQKbZzvutb8xOtfef9xyo11A1utPzR8+RgG8MfKme9n7Xu+agE8lB+J+L21r8t3vCWJ+LIGEtqcejeR91VO5PqnMs/7azPq/zprr+TDVXLVQT7/NrQNb0tS9/LWvwwn9te12O4zdl49msvznoeivHVbB4VwFcW76wh9dvzMM6ctw4no0V333+q+QfGfQHZVKGpA==
+  </data>
+ </layer>
+</map>
