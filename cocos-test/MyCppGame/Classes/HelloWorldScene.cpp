@@ -136,6 +136,8 @@ bool HelloWorld::init()
     frames.pushBack(frame5);
     frames.pushBack(frame6);
 
+    log("test");
+
     auto animation = Animation::createWithSpriteFrames(frames, 0.1f);
 
     // Animate »ý¼º
@@ -181,8 +183,6 @@ bool HelloWorld::init()
     reddot->schedule([=](float dt) {
         reddot->setPosition(blue->getPosition());
         }, "REDDOT");
-
-    
 
     auto keyboardListener = EventListenerKeyboard::create();
     keyboardListener->onKeyPressed = [blue](EventKeyboard::KeyCode keyCode, Event* event)
