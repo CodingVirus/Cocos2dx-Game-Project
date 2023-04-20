@@ -121,7 +121,7 @@ bool HelloWorld::init()
             auto groundLayer = map->getLayer("Ground");
             auto pos = blue->getPosition();
             auto tileSize = map->getTileSize();
-
+            
             int tileX = (int)((pos.x - map->getPosition().x) / tileSize.width);
             int tileY = (int)((map->getContentSize().height - pos.y + map->getPosition().y) / tileSize.height);
 
